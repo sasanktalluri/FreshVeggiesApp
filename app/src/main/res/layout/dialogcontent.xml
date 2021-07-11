@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BF007A"
+            android:gravity="center"
+            android:layout_marginTop="150dp"
+            android:text="Update Content Panel"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/uname"
+            android:layout_below="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="Product Name"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            />
+        <EditText
+            android:id="@+id/ufname"
+            android:layout_below="@+id/uname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="Update Farmer Name"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+        />
+        <EditText
+            android:id="@+id/uqua"
+            android:layout_below="@+id/ufname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="Update Quantity"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+
+        />
+
+        <EditText
+            android:id="@+id/uphone"
+            android:layout_below="@+id/uqua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Update Phone Number"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+
+        />
+
+        <Button
+            android:id="@+id/upbtn"
+            android:layout_below="@+id/uqua"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

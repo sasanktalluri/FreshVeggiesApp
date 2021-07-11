@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".ForPass">
+
+    <ImageView
+        android:id="@+id/re_applogo"
+        android:layout_marginBottom="1dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        />
+
+    <EditText
+        android:id="@+id/re_phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_applogo"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/input_design"
+        android:hint="Enter phone number"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/re_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_phoneno"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/input_design"
+        android:hint="Enter new Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/re_repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_pass"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/input_design"
+        android:hint="Enter new Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/cardview_light_background"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/re_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/re_repass"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="submit"
+        tools:ignore="UnknownId" />
+
+
+</RelativeLayout>

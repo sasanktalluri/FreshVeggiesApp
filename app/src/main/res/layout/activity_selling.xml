@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0C0C0"
+        tools:context=".SellingActivity">
+
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/camera" />
+
+        <EditText
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/camera"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:ems="10"
+            android:hint="Fruit or Vegetable name"
+            android:inputType="textMultiLine"
+            android:padding="15dp" />
+        <EditText
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/productName"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:ems="10"
+            android:hint="Farmer's Name"
+            android:inputType="text"
+            android:padding="15dp" />
+        <EditText
+            android:id="@+id/quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fname"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:ems="10"
+            android:hint="Quantity Available"
+            android:inputType="number"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/pluckedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quantity"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:ems="10"
+            android:hint="PluckedDate"
+            android:inputType="text"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/cost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pluckedDate"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:ems="10"
+            android:hint="Cost Of the Product"
+            android:inputType="number"
+            android:padding="15dp" />
+
+        <EditText
+            android:id="@+id/farmerInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cost"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="45dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="number"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/addProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/farmerInfo"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/buttons"
+            android:padding="10dp"
+            android:text="Add Product"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/wantToBuy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addProduct"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/buttons"
+            android:padding="10dp"
+            android:text="Want To BUy"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "175890837705",
+    "project_id": "myproject-6abf3",
+    "storage_bucket": "myproject-6abf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175890837705:android:dc895eb38f91149cca9d18",
+        "android_client_info": {
+          "package_name": "com.example.freshveggies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175890837705-5b2elqamfjekf853aah0cks74gf0bijj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.freshveggies",
+            "certificate_hash": "c4c9d6446371dfc80d9d2e80d539af6b394d213c"
+          }
+        },
+        {
+          "client_id": "175890837705-ivh402b8qdpk75k4se5ihgqkcu19irb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD083sG8lQrITX8jTGZjQUtj8oaDsQoekU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175890837705-ivh402b8qdpk75k4se5ihgqkcu19irb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

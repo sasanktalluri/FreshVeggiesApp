@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="15dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="15dp"
+    android:background="#C0C0C0"
+    app:cardElevation="15dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/eproduct_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textColor="#BF007A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="1dp"
+            android:padding="1dp"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageView
+            android:id="@+id/eimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/eproduct_name"
+            android:layout_marginTop="2dp"
+            android:backgroundTint="@color/white"
+            android:contentDescription="productImage"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/camera" />
+
+        <TextView
+            android:id="@+id/eprice"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eimage"
+            android:text="OrgPrice"
+            android:textAlignment="center"
+            android:textColor="#BF007A"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/ecprice"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eimage"
+            android:text="CurPrice"
+            android:textAlignment="center"
+            android:textColor="#BF007A"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/eprice"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/efname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eprice"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="1dp"
+            android:text="Farmer's Name"
+            android:textAlignment="center"
+            android:textColor="#BF007A"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/epluckedDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/efname"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="1dp"
+            android:text="Plucked Date"
+            android:textAlignment="center"
+            android:textColor="#BF007A"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/equantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/epluckedDate"
+            android:text="Quantity Available"
+            android:textAlignment="center"
+            android:textColor="#BF007A"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/ephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/equantity"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="1dp"
+            android:padding="1dp"
+            android:text="Phone Number"
+            android:textAlignment="center"
+            android:textColor="#BF007A"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+
+        <ImageButton
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_edit"
+            android:layout_below="@+id/ephone"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/bedit">
+
+        </ImageButton>
+        <ImageButton
+            android:layout_width="65dp"
+            android:id="@+id/bdelete"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_delete"
+            android:layout_toRightOf="@+id/bedit"
+            android:layout_marginLeft="80dp"
+            android:layout_below="@+id/ephone"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp">
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
